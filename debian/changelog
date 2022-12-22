@@ -1,0 +1,45 @@
+pegjs (0.10.0-3) unstable; urgency=medium
+
+  * Restore /usr/bin/pegjs (Closes: #959615)
+  * Remove nodejs from dependencies and add javascript-common as recommended
+    dependency (Closes: #722488)
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 03 May 2020 16:01:16 +0200
+
+pegjs (0.10.0-2) unstable; urgency=medium
+
+  * Fix dependencies (Closes: #956507)
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 12 Apr 2020 10:31:49 +0200
+
+pegjs (0.10.0-1) unstable; urgency=medium
+
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Update VCS fields to salsa
+  * Fix copyright
+  * New upstream version 0.10.0 (Closes: #955716)
+  * Set myself as uploader (Closes: #953505)
+  * refresh patches
+  * Use pkg-js-tools auto install
+  * Install browser files (See: #722488)
+  * Fix homepage
+  * Update lintian overrides
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 04 Apr 2020 12:58:52 +0200
+
+pegjs (0.7.0-2) unstable; urgency=medium
+
+  * Rename binary package to node-pegjs (Closes: #747659)
+
+ -- Daniel Pocock <daniel@pocock.pro>  Thu, 11 Sep 2014 14:11:27 +0200
+
+pegjs (0.7.0-1) unstable; urgency=low
+
+  * Initial upload (Closes: #720949)
+
+ -- Daniel Pocock <daniel@pocock.com.au>  Mon, 26 Aug 2013 16:13:32 +0200

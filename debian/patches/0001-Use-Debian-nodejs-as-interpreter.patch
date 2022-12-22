@@ -1,0 +1,17 @@
+From: Daniel Pocock <daniel@pocock.com.au>
+Date: Mon, 26 Aug 2013 16:56:54 +0200
+Subject: Use Debian nodejs as interpreter
+
+---
+ bin/pegjs |    2 +-
+ test/run  |    2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+--- a/bin/pegjs
++++ b/bin/pegjs
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env node
++#!/usr/bin/node
+ 
+ "use strict";
+ 

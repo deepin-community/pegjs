@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with nodejs
+
+override_dh_auto_build:
+	mkdir browser
+	browserify-lite ./lib/peg.js --outfile browser/parser.js
+	uglifyjs browser/parser.js > browser/parser.min.js

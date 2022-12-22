@@ -1,0 +1,11 @@
+# Unused files
+source: source-is-missing benchmark/vendor/jquery.scrollto/jquery.scrollTo.js line length is 2272 characters (>512)
+source: source-is-missing benchmark/vendor/jquery/jquery.js line length is 32010 characters (>512)
+source: source-contains-prebuilt-javascript-object benchmark/vendor/jquery.scrollto/jquery.scrollTo.js line length is 2272 characters (>512)
+source: source-contains-prebuilt-javascript-object benchmark/vendor/jquery/jquery.js line length is 32010 characters (>512)
+source: very-long-line-length-in-source-file benchmark/vendor/jquery.scrollto/jquery.scrollTo.js line length is 2272 characters (>512)
+source: very-long-line-length-in-source-file benchmark/vendor/jquery/jquery.js line length is 32010 characters (>512)
+# Data
+source: source-is-missing lib/parser.js line length is 4074 characters (>512)
+source: source-contains-prebuilt-javascript-object lib/parser.js line length is 4074 characters (>512)
+source: very-long-line-length-in-source-file lib/parser.js line length is 4080 characters (>512)

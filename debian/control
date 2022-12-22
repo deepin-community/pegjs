@@ -1,0 +1,28 @@
+Source: pegjs
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Build-Depends: debhelper-compat (= 12)
+ , node-browserify-lite
+ , pkg-js-tools (>= 0.9.20~)
+ , uglifyjs
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/pegjs
+Vcs-Git: https://salsa.debian.org/js-team/pegjs.git
+Homepage: https://github.com/dmajda/pegjs
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-pegjs
+Architecture: all
+Depends: ${misc:Depends}
+Recommends: javascript-common
+Provides: node-peg
+ , pegjs
+ , libjs-pegjs
+Description: JavaScript parser generator
+ PEG.js is a simple parser generator for JavaScript that produces
+ fast parsers with excellent error reporting. You can use it to process
+ complex data or computer languages and build transformers, interpreters,
+ compilers and other tools easily.
